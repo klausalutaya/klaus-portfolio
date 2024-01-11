@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Oswald-DemiBold';
+  src: url('../src/assets/fonts/oswald/Oswald-DemiBold.woff2') format('woff2'),
+       url('../src/assets/fonts/oswald/Oswald-DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald-Heavy';
+  src: url('../src/assets/fonts/oswald/Oswald-Heavy.woff2') format('woff2'),
+       url('../src/assets/fonts/oswald/Oswald-Heavy.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald-Light';
+  src: url('../src/assets/fonts/oswald/Oswald-Light.woff2') format('woff2'),
+       url('../src/assets/fonts/oswald/Oswald-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald-Medium';
+  src: url('../src/assets/fonts/oswald/Oswald-Medium.woff2') format('woff2'),
+       url('../src/assets/fonts/oswald/Oswald-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eurostile-Black';
+  src: url('../src/assets/fonts/eurostile/Eurostile-Black.woff2') format('woff2'),
+       url('../src/assets/fonts/eurostile/Eurostile-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eurostile-Regular';
+  src: url('../src/assets/fonts/eurostile/EurostileRegular.woff2') format('woff2'),
+       url('../src/assets/fonts/eurostile/EurostileRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eurostile-ExtendedBlack';
+  src: url('../src/assets/fonts/eurostile/EurostileExtended-Black.woff2') format('woff2'),
+       url('../src/assets/fonts/eurostile/EurostileExtended-Black.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eurostile-ExtendedRegular';
+  src: url('../src/assets/fonts/eurostile/EurostileExtended-Roman.woff2') format('woff2'),
+       url('../src/assets/fonts/eurostile/EurostileExtended-Roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans-Regular';
+  src: url('../src/assets/fonts/opensans-regular/OpenSans-Regular.woff2') format('woff2'),
+       url('../src/assets/fonts/opensans-regular/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url('../src/assets/fonts/poppins-regular/Poppins-regular.woff2') format('woff2'),
+       url('../src/assets/fonts/poppins-regular/Poppins-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url('../src/assets/fonts/poppins-bold/Poppins-bold.woff2') format('woff2'),
+       url('../src/assets/fonts/poppins-bold/Poppins-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Poppins-black';
+  src: url('../src/assets/fonts/poppins-blac/Poppins-black.woff2') format('woff2'),
+       url('../src/assets/fonts/poppins-black/Poppins-black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  }
+}
+
+/* Tailwind CSS */
+.animate-profile__animate {
+  animation: profile__animate 3s ease-in-out infinite; /* Remove the animation delay */
+}
